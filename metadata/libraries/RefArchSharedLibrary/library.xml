@@ -1802,6 +1802,18 @@ For more information please browse our &lt;a title="About Us Content" href="$url
         </folder-links>
     </content>
 
+
+     <content content-id="sfra-exercise-3">
+    <display-name xml:lang="x-default">SFRA-Exercise-3</display-name>
+    <online-flag>true</online-flag>
+    <searchable-flag>false</searchable-flag>
+    <custom-attributes>
+      <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p style=&quot;display:flex; justify-content:center;&quot;&gt;&lt;img alt=&quot;&quot; height=&quot;211&quot; src=&quot;exercise-3.jpeg?$staticlink$&quot; title=&quot;&quot; width=&quot;404&quot; /&gt;&lt;/p&gt;</custom-attribute>
+    </custom-attributes>
+    <folder-links>
+    </folder-links>
+  </content>
+
     <content content-id="account-banner">
         <display-name xml:lang="x-default">My Account Banner</display-name>
         <display-name xml:lang="fr-FR">Bannière Mon compte</display-name>
