@@ -1,0 +1,13 @@
+<iscontent type="text/html" charset="UTF-8" compact="true" />
+<isdecorate template="common/layout/page">
+
+    <isscript>
+            var assets = require('*/cartridge/scripts/assets.js');
+            assets.addCss('/css/content.css');
+        </isscript>
+
+    <isinclude template="/components/modules" sf-toolkit="off" />
+    <iscontentasset aid="sfra-exercise-5" class="content-wrapper" />
+
+
+</isdecorate>
