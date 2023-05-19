@@ -1,0 +1,31 @@
+<iscomment> custom button and title for Home Page </iscomment>
+<isif condition="${pdict.isHome || pdict.isCart || pdict.isProduct || pdict.isSearch}">
+    <isif condition="${pdict.isHome == true}">
+        <div>
+            <h3>You are now Home</h3>
+            <a href="${URLUtils.https('Account-Show')}" class="btn btn-primary mb-3">Go to My Account</a>
+        </div>
+    </isif>
+
+    <iscomment> custom button and title for cart landing page </iscomment>
+    <isif condition="${pdict.isCart == true}">
+        <div>
+            <h3>You are navigating through products</h3>
+            <a href="${URLUtils.https('Home-Show')}" class="btn btn-primary mb-3">Go back to Homepage</a>
+        </div>
+    </isif>
+
+    <iscomment> custom button and title for product detail page </iscomment>
+    <isif condition="${pdict.isProduct == true}">
+        <div>
+            <h3>You are navigating through products</h3>
+            <a href="${URLUtils.https('Home-Show')}" class="btn btn-primary mb-3">Go back to Homepage</a>
+        </div>
+    </isif>
+    <isif condition="${pdict.isSearch == true}">
+        <div>
+            <h3>You are navigating through a category</h3>
+            <a href="${URLUtils.https('Home-Show')}" class="btn btn-primary mb-3">Go back to Homepage</a>
+        </div>
+    </isif>
+</isif>
