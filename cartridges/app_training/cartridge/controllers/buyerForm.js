@@ -3,7 +3,6 @@
 var server = require('server');
 
 var csrfProtection = require('*/cartridge/scripts/middleware/csrf');
-var userLoggedIn = require('*/cartridge/scripts/middleware/userLoggedIn');
 var consentTracking = require('*/cartridge/scripts/middleware/consentTracking');
 
 server.get(
@@ -42,5 +41,3 @@ server.post(
 );
 
 module.exports = server.exports();
-
-<iscomment>route is /default/buyerForm-NewForm</iscomment>

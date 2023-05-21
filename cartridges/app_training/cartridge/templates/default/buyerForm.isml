@@ -364,8 +364,6 @@
             <button type="submit" class="btn btn-block btn-primary">
                 ${Resource.msg('label.button.save', 'forms', null)}
             </button>
-            <isinclude template="/components/modules" sf-toolkit="off" />
-            <iscontentasset aid="academy-exercise-5" />
         </div>
 
     </form>
