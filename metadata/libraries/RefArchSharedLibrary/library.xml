@@ -11273,6 +11273,18 @@ Consideriamo molto seriamente i diritti relativi alla privacy degli utenti di qu
         </folder-links>
     </content>
 
+      <content content-id="sfra-exercise-4">
+    <display-name xml:lang="x-default">SFRA-Exercise-4</display-name>
+    <online-flag>true</online-flag>
+    <searchable-flag>false</searchable-flag>
+    <custom-attributes>
+      <custom-attribute attribute-id="customCSSFile">exercise4.css</custom-attribute>
+      <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class=&quot;container&quot;&gt;&#13;  &lt;div class=&quot;row justify-content-center&quot;&gt;&#13;    &lt;div class=&quot;col-8&quot;&gt;&#13;      &lt;h1 class=&quot;text-center&quot;&gt;Free Shipping over US$ 50.00&lt;/h1&gt;&#13;    &lt;/div&gt;&#13;  &lt;/div&gt;&#13;&lt;/div&gt;</custom-attribute>
+    </custom-attributes>
+    <folder-links>
+    </folder-links>
+  </content>
+
     <content content-id="store-locator">
         <display-name xml:lang="x-default">Store Locator</display-name>
         <display-name xml:lang="fr-FR">Localisateur de magasins</display-name>
