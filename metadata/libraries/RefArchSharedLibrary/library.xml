@@ -1803,12 +1803,12 @@ For more information please browse our &lt;a title="About Us Content" href="$url
     </content>
 
 
-     <content content-id="sfra-exercise-3">
+  <content content-id="sfra-exercise-3">
     <display-name xml:lang="x-default">SFRA-Exercise-3</display-name>
     <online-flag>true</online-flag>
     <searchable-flag>false</searchable-flag>
     <custom-attributes>
-      <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p style=&quot;display:flex; justify-content:center;&quot;&gt;&lt;img alt=&quot;&quot; height=&quot;211&quot; src=&quot;exercise-3.jpeg?$staticlink$&quot; title=&quot;&quot; width=&quot;404&quot; /&gt;&lt;/p&gt;</custom-attribute>
+      <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class=&quot;container&quot; style=&quot;margin-top:1rem&quot;&gt;&#13;  &lt;div class=&quot;row justify-content-center&quot;&gt;&#13;    &lt;div class=&quot;col-8&quot;&gt;&#13;      &lt;p class=&quot;text-center&quot;&gt;&#13;        &lt;img src=&quot;exercise-3.jpeg?$staticlink$&quot; alt=&quot;&quot; width=&quot;731&quot; height=&quot;381&quot; /&gt;&#13;      &lt;/p&gt;&#13;    &lt;/div&gt;&#13;  &lt;/div&gt;&#13;&lt;/div&gt;</custom-attribute>
     </custom-attributes>
     <folder-links>
     </folder-links>
