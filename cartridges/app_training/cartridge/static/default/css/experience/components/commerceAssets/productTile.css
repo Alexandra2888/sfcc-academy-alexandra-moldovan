@@ -104,7 +104,7 @@
 }
 @media (max-width: 768.98px) {
   .product-tile-pd .product-tile-body .color-swatches .swatches-ul .swatch-li:nth-child(4),
-  .product-tile-pd .product-tile-body .color-swatches .swatches-ul .swatch-li:nth-child(5) {
+.product-tile-pd .product-tile-body .color-swatches .swatches-ul .swatch-li:nth-child(5) {
     display: none;
   }
   .product-tile-pd .product-tile-body .color-swatches .swatches-ul .more-swatches-li {

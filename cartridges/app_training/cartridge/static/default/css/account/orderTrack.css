@@ -44,7 +44,7 @@
 }
 @media (min-width: 992px) {
   .product-line-item + .product-line-item::before,
-  .multi-shipping + .product-line-item::before {
+.multi-shipping + .product-line-item::before {
     margin: 0.625em -1.225em;
   }
 }

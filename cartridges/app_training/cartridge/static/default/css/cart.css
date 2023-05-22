@@ -376,7 +376,7 @@
 }
 
 .swatch-circle-miscellaneous {
-  background: linear-gradient(0deg, rgb(130, 30, 145) 0, rgb(130, 30, 145) 25%, rgb(237, 209, 52) 25%, rgb(255, 255, 0) 50%, rgb(237, 209, 52) 50%, #59ba00 50%, #59ba00 76%, #111 76%, #111 100%), linear-gradient(0deg, rgb(14, 92, 209) 0, rgb(14, 92, 209) 50%, rgb(226, 11, 11) 50%, rgb(226, 11, 11) 100%);
+  background: linear-gradient(0deg, #821e91 0, #821e91 25%, #edd134 25%, yellow 50%, #edd134 50%, #59ba00 50%, #59ba00 76%, #111 76%, #111 100%), linear-gradient(0deg, #0e5cd1 0, #0e5cd1 50%, #e20b0b 50%, #e20b0b 100%);
   background-repeat: repeat-y, repeat;
   background-size: 50% 100%, 100% 100%;
   border: 0.063em solid rgba(0, 0, 0, 0.3);
@@ -636,7 +636,8 @@ div.availability {
 }
 .quick-view-dialog .modal-body,
 .choose-bonus-product-dialog .modal-body {
-  max-height: 28.125em; /* 450/16 */
+  max-height: 28.125em;
+  /* 450/16 */
   overflow-y: auto;
 }
 .quick-view-dialog button.close,
@@ -665,13 +666,13 @@ div.availability {
 }
 @media (max-width: 768.98px) {
   .quick-view-dialog .bonus-summary,
-  .choose-bonus-product-dialog .bonus-summary {
+.choose-bonus-product-dialog .bonus-summary {
     font-size: 0.625em;
   }
 }
 @media (max-width: 768.98px) {
   .quick-view-dialog .bonus-summary .bonus-product-name,
-  .choose-bonus-product-dialog .bonus-summary .bonus-product-name {
+.choose-bonus-product-dialog .bonus-summary .bonus-product-name {
     padding: 0;
   }
 }
@@ -999,6 +1000,10 @@ div.availability {
 
 .bonus-product-button {
   margin-right: 1.5em;
+}
+
+#fieldpromocode {
+  display: none;
 }
 
 /*# sourceMappingURL=cart.css.map*/
