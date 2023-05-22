@@ -1,0 +1,72 @@
+<isdecorate template="common/layout/page">
+    <isinclude template="/components/modules" sf-toolkit="off" />
+
+    
+
+    <div class="single-item">
+        <div class="carousel-element" id="goofy">
+           <iscontentasset aid="sfra-exercise-6-goofy"/>
+        </div>
+        
+        <div class="carousel-element" id="maggie">   
+            <iscontentasset aid="sfra-exercise-6-maggie"/>
+        </div>
+        
+        <div class="carousel-element" id="homer">
+            <iscontentasset aid="sfra-exercise-6-homer"/>
+        </div>
+
+        <div class="carousel-element" id="jerry">
+            <iscontentasset aid="sfra-exercise-6-jerry"/>
+        </div>
+
+        <div class="carousel-element" id="donald">
+            <iscontentasset aid="sfra-exercise-6-donald"/>
+        </div>
+
+        <div class="carousel-element" id="scooby">
+            <iscontentasset aid="sfra-exercise-6-scooby"/>
+        </div>
+
+        <div class="carousel-element" id="barney">
+            <iscontentasset aid="sfra-exercise-6-barney"/>
+        </div>
+
+        </div>
+ 
+        
+        <div class="responsive">
+            <div class="carousel-element-2" id="goofy">
+                <iscontentasset aid="sfra-exercise-6-goofy" />
+            </div>
+                        
+        <div class="carousel-element-2" id="maggie">   
+                <iscontentasset aid="sfra-exercise-6-maggie" />
+        </div>
+                        
+        <div class="carousel-element-2" id="homer">
+                <iscontentasset aid="sfra-exercise-6-homer" />
+        </div>
+
+        <div class="carousel-element-2" id="jerry">
+                <iscontentasset aid="sfra-exercise-6-jerry" />
+        </div>
+
+        <div class="carousel-element-2" id="donald">
+                <iscontentasset aid="sfra-exercise-6-donald" />
+        </div>
+
+        <div class="carousel-element-2" id="scooby">
+                <iscontentasset aid="sfra-exercise-6-scooby" />
+        </div>
+
+        <div class="carousel-element-2" id="barney">
+                <iscontentasset aid="sfra-exercise-6-barney" />
+        </div>
+
+    </div>
+
+    
+
+
+</isdecorate>

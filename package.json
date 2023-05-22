@@ -28,6 +28,17 @@
     "node-sass": "^4.9.0",
     "postcss-loader": "^2.1.5",
     "sass-loader": "^7.0.3"
+},
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "cleave.js": "^1.5.3",
+    "css-vars-ponyfill": "^2.1.2",
+    "flag-icon-css": "^2.9.0",
+    "font-awesome": "^4.7.0",
+    "isml-linter": "^5.22.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.14.6",
+    "xzoom": "^1.0.14"
   },
   "browserslist": [
     "last 2 versions",
