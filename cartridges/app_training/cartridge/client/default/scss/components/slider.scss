@@ -1,0 +1,73 @@
+.components-wrapper {
+
+    padding: 2.5rem;
+
+
+
+
+    .slider {
+
+        padding: .5rem 0;
+
+
+
+
+        .content {
+
+            padding: 1rem;
+
+
+
+
+            .image-wrapper {
+
+                display: flex;
+
+                justify-content: center;
+
+
+
+
+                img {
+
+                    width: 200px;
+
+                    height: 200px;
+
+                }
+
+            }
+
+
+
+
+
+
+
+        }
+
+    }
+
+}
+
+
+
+
+.slick-prev:before {
+
+    color: black;
+
+    font-size: 30px;
+
+}
+
+
+
+
+.slick-next:before {
+
+    color: black;
+
+    font-size: 30px;
+
+}
