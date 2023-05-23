@@ -149,6 +149,14 @@
         <page-attributes/>
     </folder>
 
+
+    <folder folder-id="sfra-exercise-7">
+        <display-name xml:lang="x-default">Exercise 7</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <page-attributes/>
+    </folder>
+
     <folder folder-id="customer-service">
         <display-name xml:lang="x-default">Customer Service</display-name>
         <display-name xml:lang="fr-FR">Service client</display-name>
