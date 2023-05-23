@@ -1,0 +1,23 @@
+<footer>
+
+    <isinclude template="/components/modules" sf-toolkit="off" />
+    <iscontentasset aid="footer-top" />
+
+    <isinclude template="/components/modules" sf-toolkit="off" />
+    <iscontentasset aid="footer-payment" />
+
+    <isinclude template="/components/modules" sf-toolkit="off" />
+    <iscontentasset aid="custumer-service" />
+
+    <isinclude template="/components/modules" sf-toolkit="off" />
+    <iscontentasset aid="about-osf" />
+
+    <isinclude template="/components/modules" sf-toolkit="off" />
+    <iscontentasset aid="footer-account-new" />
+
+    <isinclude template="/components/modules" sf-toolkit="off" />
+    <iscontentasset aid="more-information" />
+
+    <isinclude template="/components/modules" sf-toolkit="off" />
+    <iscontentasset aid="footer-copyright" />
+</footer>
