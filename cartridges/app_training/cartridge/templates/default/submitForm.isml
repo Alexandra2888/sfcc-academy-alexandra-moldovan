@@ -1,0 +1,31 @@
+<isdecorate template="common/layout/page">
+    <isscript>
+        var assets = require('*/cartridge/scripts/assets.js');
+        assets.addJs('/js/productTile.js');
+ </isscript>
+
+    <form action="${URLUtils.url('submitForm-SubmitInformation')}" class="edit-shipping-form" method="POST"
+        name="${pdict.shippingForm.htmlName}">
+
+        <fieldset class=form-division-1>
+
+            <div class="form-group">
+            <isif condition=" ${!!pdict.shippingForm.shipping.input === true}"></isif>
+                <label class="form-control-label" for="input">
+                </label>
+                <input type="text" class="form-control" id="input" <isprint
+                    value=${pdict.shippingForm.shipping.input.attributes} encoding="off" />
+                ${Resource.msg('example.input', 'forms', null)}
+            </div>
+
+   
+            <input type="hidden" name="${pdict.csrf.tokenName}" value="${pdict.csrf.token}" />
+        <div class="bottom-of-form">
+            <button type="submit" class="btn btn-block btn-primary" data-target="#myModal">
+                ${Resource.msg('label.button.save', 'forms', null)}
+            </button>
+        </div>
+         
+        </fieldset>
+    </form>
+</isdecorate>
