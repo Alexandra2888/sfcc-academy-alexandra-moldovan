@@ -6267,124 +6267,83 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
         </custom-attributes>
     </content>
 
-    <content content-id="footer-locate-store">
-        <display-name xml:lang="x-default">Footer Locate Store</display-name>
-        <display-name xml:lang="fr-FR">Pied de page Localiser des magasins</display-name>
-        <display-name xml:lang="it-IT">Piè di pagina Trova negozio</display-name>
-        <display-name xml:lang="ja-JP">フッターの店舗検索</display-name>
-        <display-name xml:lang="zh-CN">页脚查找商店</display-name>
-        <online-flag>true</online-flag>
-        <searchable-flag>false</searchable-flag>
-        <page-attributes/>
-        <custom-attributes>
-            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;a href="$httpsURL('Stores-Find', 'showMap', true, 'horizontalView', true, 'isForm', true)$" class="menu-footer locate-store"&gt;&lt;h2&gt;Locate Store&lt;/h2&gt;&lt;/a&gt;&#13;
-                &lt;span class="content"&gt;The Store Locator is designed to help you find the closest store near you.&lt;/span&gt;</custom-attribute>
-            <custom-attribute attribute-id="body" xml:lang="fr-FR">&lt;a href="$httpsURL('Stores-Find', 'showMap', true, 'horizontalView', true, 'isForm', true)$" class="menu-footer locate-store"&gt;&lt;h2&gt;Localiser des magasins&lt;/h2&gt;&lt;/a&gt;&#13;
-                &lt;span class="content"&gt;Le localisateur de magasins vous aide à trouver le magasin le plus proche.&lt;/span&gt;</custom-attribute>
-            <custom-attribute attribute-id="body" xml:lang="it-IT">&lt;a href="$httpsURL('Stores-Find', 'showMap', true, 'horizontalView', true, 'isForm', true)$" class="menu-footer locate-store"&gt;&lt;h2&gt;Trova negozio&lt;/h2&gt;&lt;/a&gt;&#13;
-                &lt;span class="content"&gt;Lo Store Locator è lo strumento che ti aiuta a trovare il negozio più vicino a te.&lt;/span&gt;</custom-attribute>
-            <custom-attribute attribute-id="body" xml:lang="ja-JP">&lt;a href="$httpsURL('Stores-Find', 'showMap', true, 'horizontalView', true, 'isForm', true)$" class="menu-footer locate-store"&gt;&lt;h2&gt;店舗検索&lt;/h2&gt;&lt;/a&gt;&#13;
-                &lt;span class="content"&gt;「店舗検索」でお近くの店舗を検索していただけます。&lt;/span&gt;</custom-attribute>
-            <custom-attribute attribute-id="body" xml:lang="zh-CN">&lt;a href="$httpsURL('Stores-Find', 'showMap', true, 'horizontalView', true, 'isForm', true)$" class="menu-footer locate-store"&gt;&lt;h2&gt;查找实体店&lt;/h2&gt;&lt;/a&gt;&#13;
-                &lt;span class="content"&gt;实体店地址搜索旨在帮助您查找周围最近的实体店。&lt;/span&gt;</custom-attribute>
-        </custom-attributes>
-    </content>
+   <content content-id="footer-top">
+    <display-name xml:lang="x-default">Footer Top</display-name>
+    <online-flag>true</online-flag>
+    <searchable-flag>false</searchable-flag>
+    <custom-attributes>
+      <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class=&quot;container-fluid&quot; style=&quot;background-color:#00a1e0; margin-top:-1.5rem&quot;&gt;&#13;  &lt;div class=&quot;row&quot;&gt;&#13;    &lt;div class=&quot;col&quot;&gt;&#13;      &lt;h1 class=&quot;text-center&quot; style=&quot;padding-top:1rem;&quot;&gt;Footer Your Benefits Section&lt;/h1&gt;&#13;      &lt;h2 class=&quot;text-center&quot;&gt;Where does it come from?&lt;/h2&gt;&#13;    &lt;/div&gt;&#13;  &lt;/div&gt;&#13;  &lt;div class=&quot;row&quot;&gt;&#13;    &lt;div class=&quot;col&quot;&gt;&#13;      &lt;h4 style=&quot;font-weight:bold&quot;&gt;Where does it come from?&lt;/h4&gt;&#13;      &lt;p&gt;&#13;        There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration in some form, by injecting humor, or randomized words which don't look even slightly believable. If you are going to use a passage of Lorem ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem ipsum generators on the internet tend to repeat predefined chunks as necessary, making this the first true generator on the internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem ipsum which looks reasonable.&#13;      &lt;/p&gt;&#13;    &lt;/div&gt;&#13;    &lt;div class=&quot;col&quot;&gt;&#13;      &lt;h4 style=&quot;font-weight:bold&quot;&gt;Where does it come from?&lt;/h4&gt;&#13;      &lt;p&gt;&#13;        There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration in some form, by injecting humor, or randomized words which don't look even slightly believable. If you are going to use a passage of Lorem ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem ipsum generators on the internet tend to repeat predefined chunks as necessary, making this the first true generator on the internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem ipsum which looks reasonable.&#13;      &lt;/p&gt;&#13;    &lt;/div&gt;&#13;    &lt;div class=&quot;col&quot;&gt;&#13;      &lt;h4 style=&quot;font-weight:bold&quot;&gt;Where does it come from?&lt;/h4&gt;&#13;      &lt;p&gt;&#13;        There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration in some form, by injecting humor, or randomized words which don't look even slightly believable. If you are going to use a passage of Lorem ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem ipsum generators on the internet tend to repeat predefined chunks as necessary, making this the first true generator on the internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem ipsum which looks reasonable.&#13;      &lt;/p&gt;&#13;    &lt;/div&gt;&#13;    &lt;div class=&quot;col&quot;&gt;&#13;      &lt;h4 style=&quot;font-weight:bold&quot;&gt;Where does it come from?&lt;/h4&gt;&#13;      &lt;p&gt;&#13;        There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration in some form, by injecting humor, or randomized words which don't look even slightly believable. If you are going to use a passage of Lorem ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem ipsum generators on the internet tend to repeat predefined chunks as necessary, making this the first true generator on the internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem ipsum which looks reasonable.&#13;      &lt;/p&gt;&#13;    &lt;/div&gt;&#13;  &lt;/div&gt;&#13;&lt;/div&gt;</custom-attribute>
+    </custom-attributes>
+    <folder-links>
+    </folder-links>
+  </content>
 
-    <content content-id="footer-social-email">
-        <display-name xml:lang="x-default">Footer Social and Email</display-name>
-        <display-name xml:lang="fr-FR">Réseaux sociaux et e-mail en pied de page</display-name>
-        <display-name xml:lang="it-IT">Social network e e-mail a piè di pagina </display-name>
-        <display-name xml:lang="ja-JP">フッターのソーシャルと Eメール</display-name>
-        <display-name xml:lang="zh-CN">页脚社交网站及电子邮件</display-name>
-        <description xml:lang="x-default">Footer content asset containing the social icons and email form.</description>
-        <description xml:lang="fr-FR">Élément de contenu de pied de page affichant les icônes de réseaux sociaux et le formulaire électronique.</description>
-        <description xml:lang="it-IT">Asset di contenuto a piè di pagina contenente le icone dei social network e il modulo per e-mail.</description>
-        <description xml:lang="ja-JP">ソーシャルアイコンと Eメールフォームを含むフッターのコンテンツアセット。</description>
-        <description xml:lang="zh-CN">包含社交网站图标和电子邮件表格的页脚内容素材。</description>
-        <online-flag>true</online-flag>
-        <searchable-flag>false</searchable-flag>
-        <page-attributes/>
-        <custom-attributes>
-            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;ul class="social-links"&gt;&#13;
-                &lt;li&gt;&lt;a class="fa fa-linkedin-square fa-3x" aria-label="LinkedIn" href="https://www.linkedin.com/company/demandware" target="_blank"&gt;&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a class="fa fa-facebook-square fa-3x" aria-label="Facebook" href="https://www.facebook.com/demandware" target="_blank"&gt;&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a class="fa fa-twitter-square fa-3x" aria-label="Twitter" href="https://twitter.com/demandware" target="_blank"&gt;&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a class="fa fa-youtube-square fa-3x" aria-label="YouTube" href="https://www.youtube.com/user/demandware" target="_blank"&gt;&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;/ul&gt;</custom-attribute>
-            <custom-attribute attribute-id="body" xml:lang="fr-FR">&lt;ul class="social-links"&gt;&#13;
-                &lt;li&gt;&lt;a class="fa fa-linkedin-square fa-3x" title="Aller sur LinkedIn" href="https://www.linkedin.com/company/demandware" target="_blank"&gt;&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a class="fa fa-facebook-square fa-3x" title="Aller sur Facebook" href="https://www.facebook.com/demandware" target="_blank"&gt;&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a class="fa fa-twitter-square fa-3x" title="Aller sur Twitter" href="https://twitter.com/demandware" target="_blank"&gt;&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a class="fa fa-youtube-square fa-3x" title="Aller sur YouTube" href="https://www.youtube.com/user/demandware" target="_blank"&gt;&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;/ul&gt;</custom-attribute>
-            <custom-attribute attribute-id="body" xml:lang="it-IT">&lt;ul class="social-links"&gt;&#13;
-                &lt;li&gt;&lt;a class="fa fa-linkedin-square fa-3x" title="Vai a LinkedIn" href="https://www.linkedin.com/company/demandware" target="_blank"&gt;&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a class="fa fa-facebook-square fa-3x" title="Vai a Facebook" href="https://www.facebook.com/demandware" target="_blank"&gt;&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a class="fa fa-twitter-square fa-3x" title="Vai a Twitter" href="https://twitter.com/demandware" target="_blank"&gt;&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a class="fa fa-youtube-square fa-3x" title="Vai a YouTube" href="https://www.youtube.com/user/demandware" target="_blank"&gt;&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;/ul&gt;</custom-attribute>
-            <custom-attribute attribute-id="body" xml:lang="ja-JP">&lt;ul class="social-links"&gt;&#13;
-                &lt;li&gt;&lt;a class="fa fa-linkedin-square fa-3x" title="LinkedIn に移動する" href="https://www.linkedin.com/company/demandware" target="_blank"&gt;&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a class="fa fa-facebook-square fa-3x" title="Facebook に移動する" href="https://www.facebook.com/demandware" target="_blank"&gt;&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a class="fa fa-twitter-square fa-3x" title="Twitter に移動する" href="https://twitter.com/demandware" target="_blank"&gt;&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a class="fa fa-youtube-square fa-3x" title="YouTube に移動する" href="https://www.youtube.com/user/demandware" target="_blank"&gt;&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;/ul&gt;</custom-attribute>
-            <custom-attribute attribute-id="body" xml:lang="zh-CN">&lt;ul class="social-links"&gt;&#13;
-                &lt;li&gt;&lt;a class="fa fa-linkedin-square fa-3x" title="前往 LinkedIn" href="https://www.linkedin.com/company/demandware" target="_blank"&gt;&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a class="fa fa-facebook-square fa-3x" title="前往 Facebook" href="https://www.facebook.com/demandware" target="_blank"&gt;&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a class="fa fa-twitter-square fa-3x" title="前往 Twitter" href="https://twitter.com/demandware" target="_blank"&gt;&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a class="fa fa-youtube-square fa-3x" title="前往 YouTube" href="https://www.youtube.com/user/demandware" target="_blank"&gt;&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;/ul&gt;</custom-attribute>
-        </custom-attributes>
-    </content>
+    <content content-id="footer-payment">
+    <display-name xml:lang="x-default">Footer Payment</display-name>
+    <online-flag>true</online-flag>
+    <searchable-flag>false</searchable-flag>
+    <custom-attributes>
+      <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class=&quot;container-fluid&quot; style=&quot;background-color:lightgray&quot;&gt;&#13;&lt;div class=&quot;row justify-content-center&quot;&gt;&#13;&lt;div class=&quot;col-md-4&quot; style=&quot;margin-top:1rem;&quot;&gt;&#13;&lt;p class=&quot;text-center&quot;&gt;Trusted Shops&lt;/p&gt;&#13;&lt;p class=&quot;text-center&quot;&gt;&lt;img alt=&quot;&quot; height=&quot;124&quot; src=&quot;Trusted%20shops.png?$staticlink$&quot; width=&quot;124&quot; /&gt;&lt;/p&gt;&#13;&lt;/div&gt;&#13;&lt;div class=&quot;col-md-4&quot; style=&quot;margin-top:1rem;&quot;&gt;&#13;&lt;p class=&quot;text-center&quot;&gt;Payment Methods&lt;/p&gt;&#13;&lt;p class=&quot;text-center&quot;&gt;&lt;img alt=&quot;&quot; height=&quot;57&quot; src=&quot;paypal.png?$staticlink$&quot; width=&quot;114&quot; /&gt;&amp;nbsp; &lt;img alt=&quot;&quot; height=&quot;44&quot; src=&quot;MasterCard.jpg?$staticlink$&quot; width=&quot;70&quot; /&gt;&amp;nbsp; &lt;img alt=&quot;&quot; height=&quot;44&quot; src=&quot;Visa.jpg?$staticlink$&quot; width=&quot;69&quot; /&gt;&lt;/p&gt;&#13;&lt;/div&gt;&#13;&lt;div class=&quot;col-md-4&quot; style=&quot;margin-top:1rem;&quot;&gt;&#13;&lt;p class=&quot;text-center&quot;&gt;Shipping Services&lt;/p&gt;&#13;&lt;p class=&quot;text-center&quot;&gt;&lt;img alt=&quot;&quot; height=&quot;86&quot; src=&quot;delivery-logo-design_1465-84.jpg?$staticlink$&quot; width=&quot;108&quot; /&gt;&amp;nbsp; &lt;img alt=&quot;&quot; height=&quot;81&quot; src=&quot;201610872016-03-314963542BikeDelivery.jpg?$staticlink$&quot; width=&quot;122&quot; /&gt;&lt;/p&gt;&#13;&lt;/div&gt;&#13;&lt;/div&gt;&#13;&lt;/div&gt;</custom-attribute>
+    </custom-attributes>
+    <folder-links>
+    </folder-links>
+  </content>
 
-    <content content-id="footer-support">
-        <display-name xml:lang="x-default">Footer Support Links</display-name>
-        <display-name xml:lang="fr-FR">Liens Assistance en pied de page</display-name>
-        <display-name xml:lang="it-IT">Link assistenza a piè di pagina</display-name>
-        <display-name xml:lang="ja-JP">フッターのサポートリンク</display-name>
-        <display-name xml:lang="zh-CN">页脚支持链接</display-name>
-        <online-flag>true</online-flag>
-        <searchable-flag>false</searchable-flag>
-        <page-attributes/>
-        <custom-attributes>
-            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div&gt;&lt;button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-customer-service"&gt;Customer Service&lt;/button&gt;&lt;h2 class="title d-none d-sm-block"&gt;Customer Service&lt;/h2&gt;&lt;/div&gt;&#13;
-                &lt;ul id="collapsible-customer-service"class="menu-footer content"&gt;&#13;
-                &lt;li&gt;&lt;a href="$httpsURL('ContactUs-Landing')$" title="Go to Contact Us"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="#" title="Go to Gift Certificates"&gt;Gift Certificates&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="#" title="Go to Help"&gt;Help&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="#" title="Go to Site Map"&gt;Site Map&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;/ul&gt;&lt;!-- END: footer_support --&gt;</custom-attribute>
-            <custom-attribute attribute-id="body" xml:lang="fr-FR">&lt;div&gt;&lt;button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-customer-service"&gt;Service client&lt;/button&gt;&lt;h2 class="title d-none d-sm-block"&gt;Service client&lt;/h2&gt;&lt;/div&gt;&#13;
-                &lt;ul id="collapsible-customer-service"class="menu-footer content"&gt;&#13;
-                &lt;li&gt;&lt;a href="#" title="Aller à Contactez-nous"&gt;Contactez-nous&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="$#('GiftCert-Purchase')$" title="Aller à Chèques-cadeaux"&gt;Chèques-cadeaux&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="#" title="Aller à Aide"&gt;Aide&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="#" title="Aller à Plan du site"&gt;Plan du site&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;/ul&gt;&lt;!-- END: footer_support --&gt;</custom-attribute>
-            <custom-attribute attribute-id="body" xml:lang="it-IT">&lt;div&gt;&lt;button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-customer-service"&gt;Servizio clienti&lt;/button&gt;&lt;h2 class="title d-none d-sm-block"&gt;Servizio clienti&lt;/h2&gt;&lt;/div&gt;&#13;
-                &lt;ul id="collapsible-customer-service"class="menu-footer content"&gt;&#13;
-                &lt;li&gt;&lt;a href="#" title="Vai a Contattaci"&gt;Contattaci&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="#" title="Vai a Certificati regalo"&gt;Certificati regalo&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="#" title="Vai a Guida"&gt;Guida&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="#" title="Vai a Mappa del sito"&gt;Mappa del sito&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;/ul&gt;&lt;!-- END: footer_support --&gt;</custom-attribute>
-            <custom-attribute attribute-id="body" xml:lang="ja-JP">&lt;div&gt;&lt;button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-customer-service"&gt;カスタマーサービス&lt;/button&gt;&lt;h2 class="title d-none d-sm-block"&gt;カスタマーサービス&lt;/h2&gt;&lt;/div&gt;&#13;
-                &lt;ul id="collapsible-customer-service"class="menu-footer content"&gt;&#13;
-                &lt;li&gt;&lt;a href="#" title="「お問い合わせ」に移動する"&gt;お問い合わせ&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="#" title="「ギフト券」に移動する"&gt;ギフト券&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="#" title="「ヘルプ」に移動する"&gt;ヘルプ&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="#" title="「サイトマップ」に移動する"&gt;サイトマップ&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;/ul&gt;&lt;!-- END: footer_support --&gt;</custom-attribute>
-            <custom-attribute attribute-id="body" xml:lang="zh-CN">&lt;div&gt;&lt;button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-customer-service"&gt;客户服务&lt;/button&gt;&lt;h2 class="title d-none d-sm-block"&gt;客户服务&lt;/h2&gt;&lt;/div&gt;&#13;
-                &lt;ul id="collapsible-customer-service"class="menu-footer content"&gt;&#13;
-                &lt;li&gt;&lt;a href="#" title="前往联系我们"&gt;联系我们&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="#" title="前往礼券"&gt;礼券&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="#" title="前往帮助"&gt;寻求帮助&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="#" title="前往站点地图"&gt;站点地图&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;/ul&gt;&lt;!-- END: footer_support --&gt;</custom-attribute>
-        </custom-attributes>
-    </content>
+  <content content-id="custumer-service">
+    <display-name xml:lang="x-default">Custumer Service</display-name>
+    <online-flag>true</online-flag>
+    <searchable-flag>false</searchable-flag>
+    <custom-attributes>
+      <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class=&quot;container-fluid&quot; style=&quot;background-color:#00a1e0;&quot;&gt;&#13;  &lt;div class=&quot;row&quot;&gt;&#13;    &lt;div class=&quot;col-md-12&quot;&gt;&#13;      &lt;p class=&quot;text-left&quot; style=&quot;font-weight:bold; padding-top:1.5rem&quot;&gt;CUSTOMER SERVICE&lt;/p&gt;&#13;    &lt;/div&gt;&#13;  &lt;/div&gt;&#13;  &lt;div class=&quot;row&quot;&gt;&#13;    &lt;div class=&quot;col-md-6&quot;&gt;&#13;      &lt;div class=&quot;text-center-start&quot;&gt;&#13;        &lt;div class=&quot;text-center&quot;&gt; &#13;          &lt;p style=&quot;font-weight:bold; line-height:0.5&quot;&gt;Hotline&lt;/p&gt;&#13;          &lt;p style=&quot;margin-left: 13.125rem; line-height: 0.5;&quot;&gt;Monday to Friday: 8:00 AM to 5:00 PM&lt;/p&gt;&#13;          &lt;p style=&quot;margin-left: 2.5rem; line-height: 0.5;&quot;&gt;1-346-4845-32&lt;/p&gt;&#13;        &lt;/div&gt;&#13;      &lt;/div&gt;&#13;    &lt;/div&gt;&#13;    &lt;div class=&quot;col-md-6&quot;&gt;&#13;      &lt;div class=&quot;text-center-start&quot;&gt;&#13;        &lt;p class=&quot;text-center&quot; style=&quot;font-weight:bold;&quot;&gt;Service &amp;amp; Help&lt;/p&gt;&#13;        &lt;ul class=&quot;text-center&quot; style=&quot;line-height:0.5&quot;&gt;&#13;          &lt;li style=&quot;list-style-type: none;line-height:0.5; margin-left:-5rem&quot;&gt;&lt;span style=&quot;color:black&quot;&gt;&amp;#8226; &lt;span style=&quot;color:white&quot;&gt;FAQ&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#13;        &lt;/ul&gt;&#13;      &lt;/div&gt;&#13;    &lt;/div&gt;&#13;  &lt;/div&gt;&#13;&lt;/div&gt;</custom-attribute>
+    </custom-attributes>
+    <folder-links>
+    </folder-links>
+  </content>
+
+  <content content-id="about-osf">
+    <display-name xml:lang="x-default">About OSF</display-name>
+    <online-flag>true</online-flag>
+    <searchable-flag>false</searchable-flag>
+    <custom-attributes>
+      <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class=&quot;container-fluid&quot; style=&quot;background-color:#00a1e0;&quot;&gt;&#13;  &lt;p style=&quot;font-weight:bold; line-height: 0.1;&quot;&gt;ABOUT&lt;/p&gt;&#13;  &lt;div&gt;&#13;    &lt;a style=&quot;color:white; padding-right:0.5rem; line-height: 0.5;&quot;&gt;About us&lt;/a&gt;&#13;    &lt;a style=&quot;color:white; padding-right:0.5rem; line-height: 0.5;&quot;&gt;Privacy&lt;/a&gt;&#13;    &lt;a style=&quot;color:white; padding-right:0.5rem; line-height: 0.5;&quot;&gt;Terms&lt;/a&gt;&#13;    &lt;a style=&quot;color:white; padding-right:0.5rem; line-height: 0.5;&quot;&gt;Jobs&lt;/a&gt;&#13;  &lt;/div&gt;&#13;&lt;/div&gt;</custom-attribute>
+    </custom-attributes>
+    <folder-links>
+    </folder-links>
+  </content>
+
+   <content content-id="footer-account-new">
+    <display-name xml:lang="x-default">Footer Account New</display-name>
+    <online-flag>true</online-flag>
+    <searchable-flag>false</searchable-flag>
+    <custom-attributes>
+      <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class=&quot;container-fluid&quot; style=&quot;background-color:#00a1e0; padding-bottom:2rem&quot;&gt;&#13;  &lt;p style=&quot;font-weight:bold; line-height: 1; padding-top:2rem&quot;&gt;ACCOUNT&lt;/p&gt;&#13;  &lt;div&gt;&#13;    &lt;a href=&quot;$httpsURL('Account-Show')$&quot; title=&quot;Go to My Account&quot; style=&quot;color:white; padding-right: 0.5rem; line-height: 0.5;&quot;&gt;My Account&lt;/a&gt;&#13;    &lt;a href=&quot;$httpsURL('Order-History')$&quot; title=&quot;Go to Check Order&quot; style=&quot;color:white; padding-right: 0.5rem; line-height: 0.5;&quot;&gt;Check Order&lt;/a&gt;&#13;    &lt;a href=&quot;$httpsURL('Wishlist-Search')$&quot; title=&quot;Go to Wishlist&quot; style=&quot;color:white; padding-right: 0.5rem; line-height: 0.5;&quot;&gt;Wish List&lt;/a&gt;&#13;    &lt;a href=&quot;$httpsURL('GiftRegistry-Landing')$&quot; title=&quot;Go to Gift Registry&quot; style=&quot;color:white; padding-right: 0.5rem; line-height: 0.5;&quot;&gt;Gift Registry&lt;/a&gt;&#13;  &lt;/div&gt;&#13;&lt;/div&gt;</custom-attribute>
+    </custom-attributes>
+    <folder-links>
+    </folder-links>
+  </content>
+
+   <content content-id="more-information">
+    <display-name xml:lang="x-default">More Information</display-name>
+    <online-flag>true</online-flag>
+    <searchable-flag>false</searchable-flag>
+    <custom-attributes>
+      <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class=&quot;container-fluid&quot; style=&quot;background-color:lightgray;&quot;&gt;&#13;  &lt;p style=&quot;padding: 2rem 1.5rem;&quot;&gt;&#13;    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique justo odio, eu lacinia quam rutrum elementum. Quisque venenatis sem et metus facilisis ultricies. Nulla elementum interdum lectus in placerat. Donec in augue ante. Nunc cursus tempor nisi ac volutpat. Nulla ligula dolor, aliquet eu accumsan quis, aliquet vitae felis. Praesent feugiat pretium varius. Etiam rhoncus semper vestibulum. Sed justo felis, maximus eu urna a, varius scelerisque dolor. Fusce dolor dui, dapibus sed pharetra eu, mattis id ante. Nulla elit metus, vehicula vitae dignissim at, ullamcorper non dui. Proin gravida vehicula mauris sed sagittis.&#13;  &lt;/p&gt;&#13;&lt;/div&gt;</custom-attribute>
+    </custom-attributes>
+    <folder-links>
+    </folder-links>
+  </content>
+
+  <content content-id="footer-copyright">
+    <display-name xml:lang="x-default">Footer Copyright</display-name>
+    <online-flag>true</online-flag>
+    <searchable-flag>false</searchable-flag>
+    <custom-attributes>
+      <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class=&quot;container-fluid&quot; style=&quot;background-color:#00a1e0; margin-top:-1.5rem;padding-top:1rem; padding-bottom:0.5rem;&quot;&gt;&#13;  &lt;div class=&quot;text-center&quot;&gt;&#13;    &lt;p style=&quot;font-size:12px; line-height:0.5;&quot;&gt;&amp;#169; 2004-2018 Commerce Cloud, a Salesforce company. All Rights Reserved&lt;/p&gt;&#13;    &lt;p style=&quot;font-size:12px; line-height:0.5;&quot;&gt;This is a demo store only. Orders made will NOT be processed.&lt;/p&gt;&#13;  &lt;/div&gt;&#13;&lt;/div&gt;</custom-attribute>
+    </custom-attributes>
+    <folder-links>
+    </folder-links>
+  </content>
+      
 
     <content content-id="gift-additional-details">
         <display-name xml:lang="x-default">Gift Certificate Additonal Details</display-name>
