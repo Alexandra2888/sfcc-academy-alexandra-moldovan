@@ -14,12 +14,13 @@ server.get(
         var Resource = require('dw/web/Resource');
         var URLUtils = require('dw/web/URLUtils');
 
-        var shippingForm = server.forms.getForm('form');
+        var newForm = server.forms.getForm('form');
+          var random = req.form.random;
                
-        shippingForm.clear();
+        newForm.clear();
             res.render('submitForm', {
             title: Resource.msg("label.form.title.shipping", "forms", null),
-            shippingForm: shippingForm,
+            random:random,
             actionUrl: URLUtils.url("submitForm-SubmitInformation").toString()
         });
         next();
@@ -30,10 +31,10 @@ server.post(
    "SubmitInformation",
    server.middleware.https,
    consentTracking.consent,
-   csrfProtection.generateToken,
+    csrfProtection.generateToken,
    function(req, res, next) {
            res.render("formComplete", {
-         
+       random:req.form.random
        });
 
        next();

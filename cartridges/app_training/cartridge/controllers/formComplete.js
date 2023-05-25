@@ -3,9 +3,12 @@
 var server = require('server');
 
 server.get('submitForm', function (req, res, next) {
-    var template='formComplete';
+    var template = 'formComplete';
+      var random = req.form.random;
+
   
-    res.render(template);
+    res.render(template, {
+            random : random});
     next();
 });
 
