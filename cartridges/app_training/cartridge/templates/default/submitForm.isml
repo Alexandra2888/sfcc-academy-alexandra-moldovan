@@ -1,0 +1,21 @@
+<isdecorate template="common/layout/page">
+    <isscript>
+        var assets = require('*/cartridge/scripts/assets.js');
+        assets.addJs('/js/productTile.js');
+ </isscript>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form action="${pdict.actionUrl}" class="login form-inline mt-5 mb-5" method="POST" name="form">
+                <div class="form-group">
+                    <input type="input" id="random" class="form-control" name="random" placeholder="Search here">
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fa fa-shopping-bag"></i>
+                    ${Resource.msg('label.button.save', 'forms', null)}
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+</isdecorate>
