@@ -608,6 +608,9 @@
             <page-keywords xml:lang="zh-CN">女式外衣、女式上衣、女式下装</page-keywords>
         </page-attributes>
         <custom-attributes>
+            <custom-attribute attribute-id="badge_background">#FF0000</custom-attribute>
+            <custom-attribute attribute-id="badge_text">Clothing Badge</custom-attribute>
+            <custom-attribute attribute-id="badge_text_color">#FFFFFF</custom-attribute>
             <custom-attribute attribute-id="enableCompare">false</custom-attribute>
             <custom-attribute attribute-id="showInMenu">true</custom-attribute>
             <custom-attribute attribute-id="sizeChartID">womens-clothing</custom-attribute>
@@ -1754,6 +1757,11 @@
             <custom-attribute attribute-id="enableCompare">false</custom-attribute>
             <custom-attribute attribute-id="showInMenu">true</custom-attribute>
         </custom-attributes>
+        <attribute-groups>
+            <attribute-group group-id="badge">
+                <display-name xml:lang="x-default">Badge</display-name>
+            </attribute-group>
+        </attribute-groups>
     </category>
 
     <category category-id="womens-clothing-bottoms">
