@@ -1,0 +1,18 @@
+<isdecorate template="common/layout/page">
+    <isscript>
+    var assets = require('*/cartridge/scripts/assets');
+    assets.addJs('/js/main');
+    </isscript>
+
+    <div class="row showmodal-cart">
+
+        <div class="col-sm-12">
+            <input type="text" name="text" placeholder="Type here..." value="" id="textarea" />
+            <button class="mymodal-tutorial btn btn-primary" data-modal-url="${URLUtils.url('ModalData-ModalShow')}">
+                <i class="fa fa-shopping-bag"></i>
+                ${Resource.msg('button.showmodal', 'modal', null)}
+            </button>
+        </div>
+    </div>
+
+</isdecorate>
