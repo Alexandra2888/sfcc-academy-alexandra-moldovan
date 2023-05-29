@@ -15,9 +15,9 @@ server.get(
         var URLUtils = require('dw/web/URLUtils');
 
         var shippingForm = server.forms.getForm('form');
-               
+
         shippingForm.clear();
-            res.render('buyerForm', {
+        res.render('buyerForm', {
             title: Resource.msg("label.form.title.shipping", "forms", null),
             shippingForm: shippingForm,
             actionUrl: URLUtils.url("buyerForm-SubmitInformation").toString()
@@ -27,17 +27,17 @@ server.get(
 );
 
 server.post(
-   "SubmitInformation",
-   server.middleware.https,
-   consentTracking.consent,
-   csrfProtection.generateToken,
-   function(req, res, next) {
-           res.render("formcomplete", {
-         
-       });
+    "SubmitInformation",
+    server.middleware.https,
+    consentTracking.consent,
+    csrfProtection.generateToken,
+    function (req, res, next) {
+        res.render("formcomplete", {
 
-       next();
-   }
+        });
+
+        next();
+    }
 );
 
 module.exports = server.exports();
