@@ -1,0 +1,31 @@
+.imageButtons {
+  margin: 20px 175px !important;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.html-slot-container > img {
+  width: 350px;
+  height: 230px;
+}
+
+.textOnImage {
+  position: absolute;
+  bottom: 1px;
+  left: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  z-index: 1;
+  user-select: none;
+}
+
+#option2 {
+  display: none;
+}
+
+.image2 {
+  filter: grayscale(100%);
+}
+
+/*# sourceMappingURL=slot.css.map*/

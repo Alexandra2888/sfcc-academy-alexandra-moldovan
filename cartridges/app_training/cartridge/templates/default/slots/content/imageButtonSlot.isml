@@ -1,0 +1,10 @@
+<div class="html-slot-container">
+	<isif condition="${slotcontent != null}">
+		<isloop items="${slotcontent.content}" var="contentAsset">
+			<img
+			src="${contentAsset.custom.login_button.httpsURL}"
+			alt="${contentAsset.custom.login_button.name}"
+			/>
+		</isloop>
+	</isif>
+</div>
