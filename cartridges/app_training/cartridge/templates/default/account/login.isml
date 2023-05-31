@@ -6,27 +6,34 @@
     </isscript>
 
     <div class="hero slant-down login-banner">
-    <isinclude template="showSlot"/>
         <h1 class="page-title">${Resource.msg('header.hero.image.login', 'login', null)}</h1>
     </div>
     <div class="container login-page">
         <!---Breadcrumbs--->
         <isinclude template="components/breadcrumbs/pageBreadcrumbs"/>
-<iscomment>show when we click img 1</iscomment>
-
+        <div class="imageButtons row">
+            <div class="col image1">
+                <p class="textOnImage">${Resource.msg('label.text.returning', 'login', null)}</p>
+                 <isslot id="img1" context="global" description="Image for Button 1" />
+            </div>
+            <div class="col image2">
+               <p class="textOnImage">${Resource.msg('label.text.check', 'login', null)}</p>
+                <isslot id="img2" context="global" description="Image for Button 2" />
+            </div>
+        </div>
         <div class="row justify-content-center equal-height">
-            <div class="col-sm-8 col-md-6">
+            <div class="col-sm-8 col-md-6" id="option1">
                 <div class="card">
                     <div class="card-body">
                         <div class="login-form-nav">
                             <isinclude template="account/components/navTabs" />
                             <div class="tab-content">
-                                <div class="tab-pane ${pdict.navTabValue === 'login' ? 'active' : ''}" id="login" role="tabpanel" aria-labelledby="login-tab">
+                                <div  class="tab-pane ${pdict.navTabValue === 'login' ? 'active' : ''}" id="login" role="tabpanel" aria-labelledby="login-tab">
                                     <isinclude template="account/components/loginForm" />
                                     <isinclude template="account/password/requestPasswordResetModal"/>
                                     <isinclude template="account/components/oauth" />
                                 </div>
-                                <div class="tab-pane ${pdict.navTabValue === "register" ? 'active' : ''}" id="register" role="tabpanel" aria-labelledby="register-tab">
+                                <div class=" tab-pane ${pdict.navTabValue === "register" ? 'active' : ''}" id="register" role="tabpanel" aria-labelledby="register-tab">
                                     <isinclude template="account/components/registerForm" />
                                 </div>
                             </div>
@@ -34,10 +41,7 @@
                     </div>
                 </div>
             </div>
-
-<iscomment>show when we click second image2</iscomment>
-
-            <div class="col-sm-8 col-md-6">
+            <div class="col-sm-8 col-md-6" id="option2">
                 <div class="card">
                     <isinclude template="account/components/trackOrderForm" />
                 </div>
